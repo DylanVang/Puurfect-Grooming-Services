@@ -1,0 +1,485 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body::before{
+    display: block;
+    content: '';
+    height: 2rem;
+}
+
+section{
+    display: block;
+}
+
+#aboutus{
+    background-color: #0000006e;
+    border: double rgb(0, 0, 0) 10px;
+}
+#form{
+    background-image: url(cat-logo.jpg);
+}
+#card{
+    background-image: url(cat-bg2.jpg);
+}
+
+   
+    
+
+
+ 
+
+
+
+/*For sm size screens */
+
+@media(max-width:576px){ 
+    section.form{
+        bottom: 11rem;
+        position: relative;
+    }
+    
+    section.img{
+        bottom: 9rem;
+        position: relative;  
+    }
+    section.about-us
+    {bottom: 8rem;
+    position: relative;
+    }
+    section.Question
+    {bottom: 6rem;
+    position: relative;
+    }
+
+ h1{font-size: 25px;
+    display: grid;
+    bottom: 180px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    
+}
+
+nav{
+background-color: #000000;  
+background-size:cover;
+border-radius: 1rem;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+header{
+    font-size: 20px;
+    top: 100px;
+    
+}
+h2{
+    top: 2rem;
+    position: relative;
+    border: #000000 inset ;
+    background-color: rgb(255, 255, 255);
+}
+h4{
+    font-size: 20px;
+    border: #000000 inset ;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+h6{
+    font-size: 30px;
+    border: #000000 inset ;
+    background-color: rgb(255, 255, 255);
+}
+
+p3{
+    content-visibility: hidden;
+}
+.contactus{
+    padding: 1px;
+    border: inset rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.info{
+    padding: 10px;
+    columns: 1;
+    margin-left: 25px;
+}
+.Book{
+    width: 100%;
+   
+    
+}
+h10{
+    margin-left: 50px;
+    color: solid black; 
+}
+select{
+    margin-left: 30px;
+    
+}
+}
+
+
+
+/*For med size screens */
+@media(min-width:577px) 
+
+{
+    section.form{
+        bottom: 11rem;
+        position: relative;
+    }
+    
+    section.img{
+        bottom: 9rem;
+        position: relative;  
+    }
+    section.about-us
+    {bottom: 8rem;
+    position: relative;
+    }
+    section.Question
+    {bottom: 6rem;
+    position: relative;
+    }
+    
+    
+    h1{font-size: 50px;
+    letter-spacing: 2px;
+    display: grid;
+    bottom: 18rem;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+
+nav{
+background-color: #000000;  
+background-size:cover;
+border-radius: 1rem;
+align-items: center;
+justify-content: space-between;
+
+}
+header{
+    font-size: 30px;
+}
+
+.contactus{
+    padding: 1px;
+    border: inset rgb(0, 0, 0);
+    background-color: white;
+}
+
+h2{
+    top: 2rem;
+    position: relative;
+    border: #000000 inset ;
+    background-color: rgb(255, 255, 255);
+}
+h4{
+    font-size: 30px;
+    border: #000000 inset ;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+h5{
+    
+    font-size: 25px;
+    font-weight: bolder;
+}
+h6{
+    font-size: 30px;
+    border: #000000 inset ;
+    background-color: rgb(255, 255, 255);
+}
+p2{
+    content-visibility: hidden;
+}
+.info{
+    padding: 10px;
+    columns: 1;
+    margin-left: 220px;
+}
+.Book{
+    width: 100%;
+   
+    
+}
+h10{
+    margin-left: 80px;
+    color: solid black; 
+}
+select{
+    margin-left: 1px;
+    
+}
+   
+
+}
+
+
+/*large screens*/
+@media(min-width:1024px){
+    section.form{
+        bottom: 11rem;
+        position: relative;
+    }
+    
+    section.img{
+        bottom: 9rem;
+        position: relative;  
+    }
+    section.about-us
+    {bottom: 8rem;
+    position: relative;
+    }
+    section.Question
+    {bottom: 6rem;
+    position: relative;
+    }
+
+
+
+    h1{font-size: 50px;
+        letter-spacing: 2px;
+        display: grid;
+        bottom: 25rem;
+        left: 5rem;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+    }
+    
+   
+    nav{
+    background-color: #000000;  
+    background-size:cover;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    header{
+        font-size: 30px;
+        text-align: center;
+       
+    }
+    .contactus{
+        padding: 1px;
+        border: inset rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+    }
+    
+    h2{
+        top: 2rem;
+        position: relative;
+        text-align: center;
+        border: #000000 inset ;
+        background-color: rgb(255, 255, 255);
+    }
+    h4{
+        font-size: 40px;
+        border: #000000 inset ;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        
+    }
+    h5{
+        
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    h6{
+        font-size: 30px;
+        border: #000000 inset ;
+        background-color: rgb(255, 255, 255);
+    }
+    p2{
+        content-visibility: hidden;
+    }
+    
+    .info{
+        padding: 10px;
+        columns: 2;
+        margin-left: 250px;
+    }
+    .Book{
+        width: 100%;
+       
+        
+    }
+    h10{
+        margin-left: 250px;
+        color: solid black; 
+    }
+    select{
+        margin-left: 10px;
+        
+    }
+}
+
+
+
+
+/*xl screens */
+@media(min-width:1440px){
+    section.form{
+        bottom: 23rem;
+        position: relative;
+    }
+    
+    section.img{
+        bottom: 9rem;
+        position: relative;  
+    }
+    section.about-us
+    {bottom: 8rem;
+    position: relative;
+    }
+    section.Question
+    {bottom: 6rem;
+    position: relative;
+    }
+    h1{font-size: 120px;
+        bottom: 50rem;
+        left: 5rem;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+        left: 56px;
+    }
+    
+   
+    nav{
+    background-color: #000000;  
+    background-size:cover;
+    border-radius: 1rem;
+    
+    
+    }
+    header{
+        font-size: 30px;
+
+        text-align: center;
+       
+    }
+    
+    
+    
+
+        h2{
+        position:relative;
+        bottom: 30px;
+        text-align: center;
+        font-size: 60px;
+        border: #000000 inset ;
+        background-color: rgb(255, 255, 255);
+
+        
+    }
+    h4{
+        font-size: 40px;
+        border: #000000 inset ;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+
+    }
+    h5{
+        
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    h6{
+        font-size: 60px;
+        border: #000000 inset ;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    p2{
+        content-visibility: hidden;
+    }
+    
+    .info{
+        padding: 10px;
+        columns: 2;
+        margin-left: 500px;
+    }
+    .Book{
+        width: 100%;
+       
+        
+    }
+    h10{
+        margin-left: 520px;
+        color: solid black; 
+    }
+    select{
+        margin-left: 30px;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*top btn*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+#myBtn:hover{
+    background-color: #555 ;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+/*scrollbar*/
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#04d9ff, #036b94);
+    border-radius: 10px;
+}
